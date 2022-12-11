@@ -1,2 +1,4 @@
-add /raw/character/sonic.pac
+add config_Unleashed/raw/character/sonic.pac
+add config_Unwiished/raw/character/sonic.pac
+add config.json
 add mod.ini
