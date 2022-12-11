@@ -1,0 +1,41 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Unleashed Animations",
+         "Elements": [
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Falling Animation:",
+               "Description": [
+                  "Choose between Unleashed or Unwiished style falling animations."
+               ],
+               "Type": "FallingEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "config_Unleashed"
+            
+            }
+         ]
+      }
+   ],
+   "Enums": {
+		"FallingEnum": [
+         {
+            "DisplayName": "Unleashed",
+            "Value": "config_Unleashed",
+            "Description": [
+               "Falling animations from the HD version of Sonic Unleashed."
+            ]
+         },
+         {
+            "DisplayName": "Unwiished",
+            "Value": "config_Unwiished",
+            "Description": [
+               "Falling animations in the style of the Wii version of Sonic Unleashed."
+            ]
+         },	 
+      ]
+   },
+   "IniFile": "mod.ini"
+}
