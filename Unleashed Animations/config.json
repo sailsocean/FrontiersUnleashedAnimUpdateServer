@@ -6,11 +6,11 @@
          "Elements": [
             {
                "Name": "IncludeDir0",
-               "DisplayName": "Falling Animation:",
+               "DisplayName": "Falling/Running Animations",
                "Description": [
-                  "Choose between Unleashed or Unwiished style falling animations."
+                  "Choose between animations."
                ],
-               "Type": "FallingEnum",
+               "Type": "AnimationsEnum",
                "MinValue": null,
                "MaxValue": null,
                "DefaultValue": "config_Unleashed"
@@ -20,21 +20,35 @@
       }
    ],
    "Enums": {
-		"FallingEnum": [
+		"AnimationsEnum": [
          {
-            "DisplayName": "Unleashed",
+            "DisplayName": "All Unleashed Animations",
             "Value": "config_Unleashed",
             "Description": [
-               "Falling animations from the HD version of Sonic Unleashed."
+               "Only use animations from the HD version of Sonic Unleashed."
             ]
          },
          {
-            "DisplayName": "Unwiished",
-            "Value": "config_Unwiished",
+            "DisplayName": "Open Handed Boosting Animation",
+            "Value": "config_UnleashedOpen",
             "Description": [
-               "Falling animations in the style of the Wii version of Sonic Unleashed."
+               "Use an open-handed boosting animation."
             ]
          },	 
+         {
+            "DisplayName": "Unwiished Fall Animation",
+            "Value": "config_Unwiished",
+            "Description": [
+               "Use a falling animation from the Wii version of Sonic Unleashed."
+            ]
+         },	
+         {
+            "DisplayName": "Open Handed Boosting + Unwiished Fall",
+            "Value": "config_UnwiishedOpen",
+            "Description": [
+               "Use the falling animation from Sonic Unwiished and an open-handed boosting animation."
+            ]
+         },	
       ]
    },
    "IniFile": "mod.ini"
