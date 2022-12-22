@@ -1,3 +1,9 @@
+## Sonic Unleashed Animations V1.3
+- Added proper blinking to Sonic's idle animation
+- Replaced idle animations
+- Fixed transition from squatting to standing
+- Added a configuration option for an open-handed boost animation
+
 ## Sonic Unleashed Animations V1.2
 - Added Unleashed rail grinding animations
 - Added Unleashed falling animations
